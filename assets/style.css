@@ -40,3 +40,10 @@ nav ul li {
 #about-me {
     border: solid blue;
 }
+
+footer {
+    border: solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
