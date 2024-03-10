@@ -4,17 +4,18 @@
 
 }
 
-body {
-    margin-left: 60px;
-    margin-right: 60px;
+main {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 header {
     border: solid purple;
+    background-color: #343639;
     font-size: 40px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
 
 }
 
@@ -25,6 +26,9 @@ h1 {
 nav {
     border: solid blue;
     margin-bottom: 10px;
+    background-color: #343639;
+    color: white;
+    padding: 5px;
 }
 
 nav ul {
@@ -45,15 +49,22 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 #about-me {
     border: solid blue;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 
 #skills-me {
     border: solid orangered;
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding: 5px;
 }
 
 .bc-skills {
@@ -61,11 +72,12 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 
 .list {
-    width: 300px;
+    width: 300px; 
     padding: 10px;
     border: solid black;
     border-width: 1px;
@@ -75,6 +87,7 @@ nav ul li {
 .title {
     position: relative;
     margin-top: -20px;
+    margin-bottom: 20px;
     border: solid black;
     color: white;
     background-color: #343639;
@@ -83,23 +96,67 @@ nav ul li {
     font-size: 25px;
 }
 
+#projects-me {
+    font-size: 25px;
+    margin-bottom: 10px;
+    border: solid purple;
+}
+
+/*
+.main-project {
+    border: solid blue;
+    float: left;
+}
+
+
+.side-project {
+    border: solid orangered;
+    display: inline-block;
+    width: 70%;
+    
+
+}
+
+.proj-1 {
+    border: solid purple;
+}
 
 
 
+.proj-2 {
+    border: solid blue;
+}
 
 
+p {
+    border: solid rgb(0, 255, 191);
+}
+
+*/
 
 
+.proj {
+    display: flex; /*makes all children into a flex box - (paragraph and image)*/
+    align-items: center; /*center items vertically*/
+}
 
+.des {
+    flex: 1; /*makes the paragraph take up remaining available space pushing the image to the right*/
+}
 
-
-
+.image {
+    margin-left: 20px; /*add margin between paragraph and picture*/
+}
 
 
 
 footer {
     border: solid purple;
+    background-color: #343639;
+    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-size: 25px;
+    padding: 10px;
 }
