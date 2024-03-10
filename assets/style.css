@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    border: solid purple;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+h1 {
+    border: solid orangered;
+}
+
+nav {
+    border: solid blue;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid orangered;
+}
+
+.image-me {
+    border: solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#about-me {
+    border: solid blue;
+}
