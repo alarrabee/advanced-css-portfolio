@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(203, 182, 236);
+    text-decoration: none;
 }
 
 body {
@@ -14,24 +15,16 @@ main {
 }
 
 header {
-    border: solid purple;
     background-color: #343639;
     font-size: 40px;
     text-align: center;
-    color: white;
     padding: 40px 40px 15px 40px;
-
 }
 
-h1 {
-    border: solid orangered;
-}
 
 nav {
-    border: solid blue;
     margin-bottom: 10px;
     background-color: #343639;
-    color: white;
     padding: 5px;
 }
 
@@ -44,20 +37,23 @@ nav ul li {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    border: solid orangered;
-
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .image-me {
-    border: solid purple;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 10px;
 }
 
+.image-me img {
+    border-radius: 30px;
+}
+
 #about-me {
-    border: solid blue;
     font-size: 25px;
     background-color: #343639;
     margin-bottom: 10px;
@@ -67,7 +63,6 @@ nav ul li {
 
 
 #skills-me {
-    border: solid orangered;
     font-size: 25px;
     background-color: #343639;
     margin-bottom: 10px;
@@ -80,14 +75,13 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 
 .list {
     width: 300px; 
     padding: 10px;
-    border: solid black;
-    border-width: 1px;
     margin: 20px 20px;
     background-color: #343639;
 }
@@ -96,7 +90,7 @@ nav ul li {
     position: relative;
     margin-top: -20px;
     margin-bottom: 20px;
-    border: solid black;
+    border: solid #343639;
     color: #343639;
     background-color: rgb(203, 182, 236);
     border-radius: 10px;
@@ -108,7 +102,6 @@ nav ul li {
     font-size: 25px;
     background-color: #343639;
     margin-bottom: 10px;
-    border: solid purple;
     padding: 20px;
     border-radius: 30px;
 }
@@ -118,35 +111,29 @@ nav ul li {
 .content {
     display: flex;
     flex-wrap: wrap;
-    border: solid orangered;
     margin-bottom: 20px;
 
 }
 
 .main-project {
-    border: solid #343639;
     display: flex;
     flex-wrap: wrap;
     flex: 1;
 }
 
 .main-project img {
-    border: solid red;
     background-color: #343639;
 }
 
 .main-project p {
-    border: solid purple;
-    padding: 60px 10px 0 10px;
+    padding: 60px 20px 0 20px;
     margin-right: 40px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     background-color: #343639;
 }
 
-.side-project {
-    color: white;
-}
+
 
 .proj {
     display: flex; /*makes all children into a flex box - (paragraph and image)*/
@@ -174,17 +161,23 @@ nav ul li {
 
 
 
-
-
-
-
 footer {
-    border: solid purple;
     background-color: #343639;
-    color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     font-size: 25px;
+    padding: 15px
+}
+
+
+footer h2 {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer p {
+    border: solid;
+    border-radius: 20px;
     padding: 10px;
 }
