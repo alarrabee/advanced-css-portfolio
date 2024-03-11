@@ -1,7 +1,11 @@
 * {
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(203, 182, 236);
+}
 
+body {
+    background-color: rgb(203, 182, 236);
 }
 
 main {
@@ -55,7 +59,6 @@ nav ul li {
 #about-me {
     border: solid blue;
     font-size: 25px;
-    color: white;
     background-color: #343639;
     margin-bottom: 10px;
     padding: 20px;
@@ -66,7 +69,6 @@ nav ul li {
 #skills-me {
     border: solid orangered;
     font-size: 25px;
-    color: white;
     background-color: #343639;
     margin-bottom: 10px;
     padding: 20px;
@@ -74,12 +76,10 @@ nav ul li {
 }
 
 .bc-skills {
-    border: dashed #343639;
+    border: solid #343639;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10px;
-
 }
 
 
@@ -88,7 +88,8 @@ nav ul li {
     padding: 10px;
     border: solid black;
     border-width: 1px;
-    margin: 60px 10px;
+    margin: 20px 20px;
+    background-color: #343639;
 }
 
 .title {
@@ -96,8 +97,8 @@ nav ul li {
     margin-top: -20px;
     margin-bottom: 20px;
     border: solid black;
-    color: white;
-    background-color: #343639;
+    color: #343639;
+    background-color: rgb(203, 182, 236);
     border-radius: 10px;
     padding: 10px;
     font-size: 25px;
@@ -105,7 +106,6 @@ nav ul li {
 
 #projects-me {
     font-size: 25px;
-    color: white;
     background-color: #343639;
     margin-bottom: 10px;
     border: solid purple;
@@ -125,16 +125,23 @@ nav ul li {
 
 .main-project {
     border: solid #343639;
+    display: flex;
+    flex-wrap: wrap;
     flex: 1;
-
 }
 
 .main-project img {
     border: solid red;
-    padding-right: 150px;
     background-color: #343639;
+}
+
+.main-project p {
+    border: solid purple;
+    padding: 60px 10px 0 10px;
+    margin-right: 40px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    background-color: #343639;
 }
 
 .side-project {
@@ -157,8 +164,13 @@ nav ul li {
 
 .image {
     margin-left: 150px; /*add margin between paragraph and picture*/
+    
 }
 
+.css-snip {
+    border: solid black;
+    margin-left: 150px;
+}
 
 
 
