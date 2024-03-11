@@ -15,7 +15,7 @@ header {
     font-size: 40px;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 40px 40px 15px 40px;
 
 }
 
@@ -55,24 +55,31 @@ nav ul li {
 #about-me {
     border: solid blue;
     font-size: 25px;
+    color: white;
+    background-color: #343639;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 
 #skills-me {
     border: solid orangered;
     font-size: 25px;
+    color: white;
+    background-color: #343639;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .bc-skills {
-    border: solid red;
+    border: dashed #343639;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 10px;
+
 }
 
 
@@ -98,46 +105,50 @@ nav ul li {
 
 #projects-me {
     font-size: 25px;
+    color: white;
+    background-color: #343639;
     margin-bottom: 10px;
     border: solid purple;
+    padding: 20px;
+    border-radius: 30px;
 }
 
-/*
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid orangered;
+    margin-bottom: 20px;
+
+}
+
 .main-project {
-    border: solid blue;
-    float: left;
+    border: solid #343639;
+    flex: 1;
+
 }
 
+.main-project img {
+    border: solid red;
+    padding-right: 150px;
+    background-color: #343639;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
 
 .side-project {
-    border: solid orangered;
-    display: inline-block;
-    width: 70%;
-    
-
+    color: white;
 }
-
-.proj-1 {
-    border: solid purple;
-}
-
-
-
-.proj-2 {
-    border: solid blue;
-}
-
-
-p {
-    border: solid rgb(0, 255, 191);
-}
-
-*/
-
 
 .proj {
     display: flex; /*makes all children into a flex box - (paragraph and image)*/
-    align-items: center; /*center items vertically*/
+    align-items:center; /*center items vertically*/
+    border: solid;
+    margin-bottom: 30px;
+    background-color: #343639;
+    border-radius: 30px;
+    
 }
 
 .des {
@@ -145,8 +156,13 @@ p {
 }
 
 .image {
-    margin-left: 20px; /*add margin between paragraph and picture*/
+    margin-left: 150px; /*add margin between paragraph and picture*/
 }
+
+
+
+
+
 
 
 
