@@ -111,7 +111,7 @@ nav ul li {
 .content {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
 }
 
@@ -123,10 +123,11 @@ nav ul li {
 
 .main-project img {
     background-color: #343639;
+    padding-bottom: 25px;
 }
 
 .main-project p {
-    padding: 60px 20px 0 20px;
+    padding: 60px 20px 0px 20px;
     margin-right: 40px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -137,11 +138,14 @@ nav ul li {
 
 .proj {
     display: flex; /*makes all children into a flex box - (paragraph and image)*/
-    align-items:center; /*center items vertically*/
+    /*justify-content:space-around; /*center items vertically*/
+    align-items: center;
     border: solid;
-    margin-bottom: 30px;
+
     background-color: #343639;
-    border-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 20px;
     
 }
 
@@ -149,15 +153,12 @@ nav ul li {
     flex: 1; /*makes the paragraph take up remaining available space pushing the image to the right*/
 }
 
+
 .image {
-    margin-left: 150px; /*add margin between paragraph and picture*/
-    
+    margin-left: 20px;
+    border: solid black; 
 }
 
-.css-snip {
-    border: solid black;
-    margin-left: 150px;
-}
 
 
 
