@@ -37,10 +37,25 @@ nav ul li {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+}
+
+nav ul li a {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     border-radius: 20px;
     padding: 10px;
 }
+
+
+nav ul li a:hover {
+    color: #343639;
+    background-color: rgb(203, 182, 236);
+}
+
+
+
 
 .image-me {
     display: flex;
@@ -177,8 +192,30 @@ footer h2 {
     padding: 10px;
 }
 
-footer p {
+.email{
     border: solid;
     border-radius: 20px;
     padding: 10px;
+}
+
+
+footer p {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer a {
+    border: solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.email:hover {
+    color: #343639;
+    background-color: rgb(203, 182, 236);
+}
+
+.f-hover:hover {
+    color: #343639;
+    background-color: rgb(203, 182, 236);
 }

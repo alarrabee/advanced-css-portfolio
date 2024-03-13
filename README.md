@@ -40,3 +40,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Attributes 
 
+Shallow focus photo of purple flower field.  
+Photo by [Mohammad Amiri](https://unsplash.com/@iranskids?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/shallow-focus-photo-of-purple-flower-field-D_gCf1OXwL4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) 
+Free to use under the [Unsplash License](https://unsplash.com/license)
+
+placeholder images from [Lorem Pisum](https://picsum.photos/)
