@@ -37,4 +37,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Website
 
+(https://alarrabee.github.io/advanced-css-portfolio/)
+
+## Attributes
+
+Shallow focus photo of purple flower field.  Photo by [Mohammad Amiri](https://unsplash.com/@iranskids?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/)
+Free to use under the Unsplash [License](https://unsplash.com/license)
+
+Placeholder images from [Lorem Piscum](https://picsum.photos/)
+
+
 
